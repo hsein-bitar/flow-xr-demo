@@ -100,31 +100,4 @@ Note that I didn't use any styling library or theme, all from scratch and using 
 
 <br>
 
-> Following are the steps required to run the project locally on your machine:
-
-### Prerequisites
-To run this project, you will need the following installed on your system:
-*  MongoDB
-*  NodeJS & NPM 
-
-### Installation
-
-1. Clone this repository
-2. Run the following command in the root directory of the project to install NPM packages for the server:
-  ```sh
-  npm install
-  ```
-3. Navigate into the frontend folder named <span style="color:red">"Client"</span> , to install NPM packages for the client:
-  ```sh
-  npm install
-  ```
-4. Create .env file with "TOKEN_SECRET", "DB_CONNECT" string, and "PORT" values
-5. To run the server, navigate to the root of the repository then run:
-  ```sh
-  npm run dev
-  ```
-6. To run the client, navigate to the <span style="color:red">"Client"</span> folder then run:
-  ```sh
-  npm start
-  ```
-7. If you don't have access to the test DB exported data, you will need to register and upload your own data from scratch
+> The source code of this project is not public
